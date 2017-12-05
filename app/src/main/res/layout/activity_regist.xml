@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.hywoman.myapplication.RegistActivity">
+
+<EditText
+    android:id="@+id/etEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="53dp" />
+
+<EditText
+    android:id="@+id/etPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Password"
+    android:inputType="textPassword"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="165dp" />
+
+<EditText
+    android:id="@+id/etPasswordConfirm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Password"
+    android:inputType="textPassword"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="108dp" />
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="가입" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="취소" />
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
